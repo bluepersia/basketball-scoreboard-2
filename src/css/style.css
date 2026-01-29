@@ -1,0 +1,29 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url("../fonts/CursedTimer.ttf");
+}
+
+*, ::before, ::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, button {
+    display: block;
+}
+
+:root 
+{
+    --color-dark-blue: rgba(27, 36, 74, 1);
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: CursedTimer;
+    background-color: var(--color-dark-blue);
+}
